@@ -69,7 +69,7 @@ command line and in the config file.
 	session after <timeout> seconds. Adding an idlehint event will also cause
 	swayidle to call SetIdleHint(false) when run, on resume, unlock, etc.
 
-All commands are executed in a shell.
+All commands are executed in a shell, and should be quoted or escaped appropriately if the command contains whitespace of other special shell characters.
 
 # SIGNALS
 
